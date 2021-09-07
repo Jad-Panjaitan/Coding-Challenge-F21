@@ -33,7 +33,8 @@ Regardless if you can or cannot answer the question, provide a short explanation
 # JAD'S SOLUTION:
 
 A simple TF-IDF model in Python, using scikit-learn for the modelling; pandas, nltk, and some vanilla Python packages like string and re for the preprocessing.
-I trained the model using this dataset of [1.6 million tweets](https://www.kaggle.com/kazanova/sentiment140). Unfortunately, since my laptop is a potato I can only analyse 10,000 of those tweets.
+I trained the model using this dataset of [1.6 million tweets](https://www.kaggle.com/kazanova/sentiment140). Unfortunately, since my laptop is a potato I can only analyse 10,000 of those tweets. The .rar and .csv file both exceed GitHub's file size limit, so you'll have to go to the link and login to an account to download it.
+
 It attempts to classify the sentiment of each sentence in the document by either 0 or 4 -- negative and positive, respectively. It then calculates the average sentiment of the document. 
 
 Personally, I would say the polarity of the text above is, on a scale of 0 to 10, a 6 -- slightly positive. The first block of text is quite raucous, while the second one is kind and complimentary; however, despite the former being shorter, it is also more potent in its wording, mentioning murders and yelling and acts of rage. 
