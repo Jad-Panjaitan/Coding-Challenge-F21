@@ -71,7 +71,7 @@ SOLUTION: As it turns out, the linear algebra kicks in when you start working wi
 **PROBLEM: The model is overfitting!**
 SOLUTION: I'm only drawing from the first 10,000 rows, and in the csv the first 0.8 million or so rows are all negative.  I ended up randomising it, then drawing from one row out of every 125. Only then was it ready to train.
 
-ADDENDUM to STEP 6: Tweak the ratios of training size to sample size, along with the frequency at which I sample the rows. What brought the best compromise was sampling 1 row out of every 125, with 20% of that data being dedicated to testing.
+__ADDENDUM to STEP 6: Tweak the ratios of training size to sample size, along with the frequency at which I sample the rows. What brought the best compromise was sampling 1 row out of every 125, with 20% of that data being dedicated to testing.__
 
 ## Future Improvements
 
